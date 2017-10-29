@@ -1,0 +1,97 @@
+html {
+  background-color: #6E8394
+}
+
+/** Body styling **/
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1.0em;
+  line-height: 1.0em;
+  font-family: 'Playfair Display', serif;
+  font-weight: normal;
+  color: #C6D7E1;
+}
+
+/** Navigation bar styling **/
+nav {
+  background: white;
+  padding: 0;
+  margin: 0;
+  font-size: 0.8em;
+  color: #405D6B;
+}
+nav a {
+display:inline-block;
+padding: 10px 10px;
+transition: all .3s;
+color: #405D6B;
+text-decoration: none;
+font-size: 0.8em;
+}
+
+nav a:hover {
+  background: #6E8394;
+  color: white;
+}
+
+/** Headings styling **/
+header#main-header >h1 {
+  text-align: center;
+  color: #C6D7E1;
+  font-size: 2.5em;
+  letter-spacing: 1px;
+}
+header#main-header >h2{
+  text-align: center;
+  color: #C6D7E1;
+  font-size: 2em;
+  letter-spacing: 1px;
+}
+
+header#main-header >img{
+  display: block;
+  margin: auto;
+  width: 25%;
+}
+
+/** Home-content styling **/
+section#home-content >p {
+  text-align: center;;
+  font-size: 1.0em;
+  line-height: 1.8em;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+/**Headshot gallery styling **/
+section#gallery > img{
+  display: inline-block;
+  margin:2px;
+  height: 350px;
+}
+
+/**Resume styling **/
+setion#resume >h3 {
+  text-align: left;
+  margin-left: 10px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+section#resume >h4 {
+  margin: 10px;
+  font-size: 1.0em;
+}
+
+section#resume >ul {
+  margin: 10px;
+  font-size: 0.8em;
+  line-height: 1.2em;
+}
+
+section#resume >h5 {
+  margin: 10px;
+  font-size: 0.8em;
+  font-style: italic;
+}
